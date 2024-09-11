@@ -1,0 +1,17 @@
+{
+    "name": "ezermeno/fmxpluck",
+    "description": "Package for concatenate some columns in descriptions of array directly from model in eloquent laravel",
+    "autoload": {
+        "psr-4": {
+            "Ezermeno\\Fmxpluck\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Enrique Zemeño",
+            "email": "jerryhenry75@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
