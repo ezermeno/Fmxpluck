@@ -1,11 +1,10 @@
 <?php
 
-use Illuminate\Support\Str;
-
 namespace Ezermeno\Fmxpluck;
 
 trait Fmxpluck
 {
+   use Illuminate\Support\Str;
    
    public function scopeFmxPluck($query, $columnas = [], $id = null, $separador = " ")
    {
