@@ -11,10 +11,25 @@ En tu proyecto Laravel:
 composer require ezermeno/fmxpluck
 ```
 
+## 📦 Agregar a Model
+
+En tu Model (ejemplo  con modelo `User`):
+
+```php
+use Ezermeno\Fmxpluck\Fmxpluck;
+
+class User extends Authenticatable
+{
+    use  Fmxpluck;
+   ....
+}
+
+```
+
 
 ## 📦 Uso básico
 
-En tu modelo (ejemplo `User`):
+En tu Controller (ejemplo  con modelo `User`):
 
 ```php
 $usuarios = User::fmxPluck(['name','email'],'id',':');
